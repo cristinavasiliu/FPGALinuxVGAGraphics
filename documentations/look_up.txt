@@ -1,0 +1,11 @@
+- How the memory is divided + addresses (for header file)              DE1-SoC_arm_computer.pdf       pg 2- 
+- MSEL (Configuration Mode Switch) pin settings                        DE1-SoC_User_manual_revf.pdf   pg 12-13
+- Configuring the FPGA in JTAG mode (Quartus)                          DE1-SoC_User_manual_revf.pdf   pg 14-18        
+- Pin assignment for clk, push-buttons, switches, LEDs                 DE1-SoC_User_manual_revf.pdf   pg 22-26
+- 7-segment displays                                                   DE1-SoC_User_manual_revf.pdf   pg 26-27
+- DE1-SoC Linux Frame Buffer                                           DE1-SoC_User_manual_revf.pdf   pg 105-106
+- Running Linux on the DE1-SoC Board                                   Using_Linux_on_DE1-SoC         pg 2-8        
+- Creating a .rbf file (Raw Binary File)                               Using_Linux_on_DE1-SoC         pg 9-11
+- Programming the FPGA                                                 Using_Linux_on_DE1-SoC         pg 11-12
+- Changing the default FPGA Programming File                           Using_Linux_on_DE1-SoC         pg 12
+                      
