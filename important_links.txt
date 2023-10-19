@@ -22,4 +22,8 @@ https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartN
 Configuring the DE1-SoC to run Linux OS (explained very well):
 https://schaumont.dyn.wpi.edu/ece4530f19/lectures/lecture16-notes.html
 
+For git:
+https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line
+https://www.freecodecamp.org/news/error-failed-to-push-some-refs-to-how-to-fix-in-git/
+
 
