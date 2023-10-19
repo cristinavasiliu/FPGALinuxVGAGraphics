@@ -4,7 +4,6 @@ Lab 1 from      https://people.ece.cornell.edu/land/courses/ece5760/
 Linux of FPGA   https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/linux_index.html
 Graphics        https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html
 
-
 Memory blocks:             https://www.ece.ucdavis.edu/~bbaas/180/tutorials/m9k.html
 Bitmaps from image files:  https://www.ece.ucdavis.edu/~bbaas/180/tutorials/image.bitmaps/
 Using accelorometer:       https://www.ece.ucdavis.edu/~bbaas/180/tutorials/accelerometer.html
