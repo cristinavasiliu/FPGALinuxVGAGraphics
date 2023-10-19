@@ -53,4 +53,4 @@ using the 'Archive Report' or 'Archive' options in Quartus. To edit: PROJECT -> 
 Additionally, Quartus generates temporary and intermediate files during the design process, such as '.jdi' (Jam Design File), '.bak' (Backup Files), and more.
 These serve as intermediate, backups and temporary files and can be safely ignored. 
 
-!! Avoid manually editing .qpf, .qsf, .ip, and .qsys files. 
+!! Avoid manually editing .qpf, .qsf, .ip, and .qsys files.

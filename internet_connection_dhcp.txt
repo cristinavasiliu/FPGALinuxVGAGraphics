@@ -1,3 +1,6 @@
+Open /etc/network/interfaces and write the following:
+
+
 For eth0 with dhcp:
 
 # The loopback network interface
@@ -8,4 +11,9 @@ iface lo inet loopback
 iface eth0 inet dhcp
 
 
-https://askubuntu.com/questions/214170/whats-the-default-etc-network-interfaces
+
+Save then execute: /etc/init.d/networking restart
+
+
+
+For more information see: https://askubuntu.com/questions/214170/whats-the-default-etc-network-interfaces
