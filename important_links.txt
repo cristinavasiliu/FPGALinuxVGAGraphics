@@ -1,0 +1,26 @@
+From Cornell:
+
+Lab 1 from      https://people.ece.cornell.edu/land/courses/ece5760/
+Linux of FPGA   https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/linux_index.html
+Graphics        https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html
+
+
+Memory blocks:             https://www.ece.ucdavis.edu/~bbaas/180/tutorials/m9k.html
+Bitmaps from image files:  https://www.ece.ucdavis.edu/~bbaas/180/tutorials/image.bitmaps/
+Using accelorometer:       https://www.ece.ucdavis.edu/~bbaas/180/tutorials/accelerometer.html
+
+
+Summer project:
+https://www.youtube.com/watch?v=k_7IV0U2JhQ
+
+Intel linux SD card images:
+https://www.intel.com/content/www/us/en/developer/topic-technology/fpga-academic/materials-sd-card-images.html
+https://fpgacademy.org/courses.html (I used this one)
+
+Terasic linux SD card images:
+https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4
+
+Configuring the DE1-SoC to run Linux OS (explained very well):
+https://schaumont.dyn.wpi.edu/ece4530f19/lectures/lecture16-notes.html
+
+

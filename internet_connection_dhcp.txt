@@ -1,0 +1,11 @@
+For eth0 with dhcp:
+
+# The loopback network interface
+auto lo eth0
+iface lo inet loopback
+
+# The primary network interface
+iface eth0 inet dhcp
+
+
+https://askubuntu.com/questions/214170/whats-the-default-etc-network-interfaces
