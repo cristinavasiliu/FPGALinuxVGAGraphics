@@ -1,0 +1,24 @@
+[ 98%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+^[[^[[Ac++: internal compiler error: Killed (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+modules/python2/CMakeFiles/opencv_python2.dir/build.make:62: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o] Error 4
+CMakeFiles/Makefile2:3965: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/all' failed
+make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
+Makefile:160: recipe for target 'all' failed
+make: *** [all] Error 2
+root@DE1_SoC:~/Desktop/build# [A
+[ 98%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+^[[^[[Ac++: internal compiler error: Killed (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+modules/python2/CMakeFiles/opencv_python2.dir/build.make:62: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o] Error 4
+CMakeFiles/Makefile2:3965: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/all' failed
+make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
+Makefile:160: recipe for target 'all' failed
+make: *** [all] Error 2
+root@DE1_SoC:~/Desktop/build# [A
