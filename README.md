@@ -13,5 +13,5 @@ Run:
 
  <h3>Linux image:</h3>
 
- I used the DE1-SoC image from Intel, which can be found at the following link: https://fpgacademy.org/courses.html
+ I used the 'Linux LXDE Desktop’ image, which can be found at the following link: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4
 
