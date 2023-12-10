@@ -22,3 +22,37 @@ make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
 Makefile:160: recipe for target 'all' failed
 make: *** [all] Error 2
 root@DE1_SoC:~/Desktop/build# [A
+
+
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_operators_tests.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_compoundkernel_tests.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_video_tests.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_roi_test.cpp.o
+[ 98%] Linking CXX executable ../../bin/opencv_test_gapi
+[ 98%] Built target opencv_test_gapi
+Scanning dependencies of target gen_opencv_python_source
+[ 98%] Generate files for Python bindings and documentation
+WARNING! Typing stubs can be generated only with Python 3.6 or higher. Current version sys.version_info(major=2, minor=7, micro=12, releaselevel='final', serial=0)
+WARNING! Typing stubs can be generated only with Python 3.6 or higher. Current version sys.version_info(major=2, minor=7, micro=12, releaselevel='final', serial=0)
+Note: Class cv::Feature2D has more than 1 base class (not supported by Python C extensions)
+      Bases:  cv::Algorithm, cv::class, cv::Feature2D, cv::Algorithm
+      Only the first base class will be used
+Note: Class cv::detail::GraphCutSeamFinder has more than 1 base class (not supported by Python C extensions)
+      Bases:  cv::detail::GraphCutSeamFinderBase, cv::detail::SeamFinder
+      Only the first base class will be used
+[ 98%] Built target gen_opencv_python_source
+Scanning dependencies of target opencv_python2
+[ 98%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
+c++: internal compiler error: Killed (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-5/README.Bugs> for instructions.
+modules/python2/CMakeFiles/opencv_python2.dir/build.make:62: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o] Error 4
+CMakeFiles/Makefile2:4011: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/all' failed
+make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
+Makefile:160: recipe for target 'all' failed
+make: *** [all] Error 2
+root@DE1_SoC:~/Desktop/build# 
+root@DE1_SoC:~/Desktop/build# 
+
