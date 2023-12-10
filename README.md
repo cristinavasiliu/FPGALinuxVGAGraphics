@@ -1,5 +1,5 @@
 # FPGALinuxVGAGraphics
-## Linux on FPGA + VGA graphics 
+## Linux on FPGA (DE1-SoC) + VGA graphics 
 
 <h3>Instructions on how to run the c files:</h3> 
 
