@@ -33,3 +33,15 @@ https://github.com/hershg/opencv-fpga
 https://livrepository.liverpool.ac.uk/3028893/1/200832211_Jan2018.pdf
 https://www.rocketboards.org/foswiki/Projects/SoCLicensePlateRecognition
 https://www.pathpartnertech.com/how-to-build-angstrom-linux-distribution-for-altera-soc-fpga-with-open-cv-camera-driver-support/
+
+https://unix.stackexchange.com/questions/202910/how-to-check-a-kernel-version-which-was-used-when-building-packagehttps://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
+https://askubuntu.com/questions/724872/downgrade-gcc-from-5-2-1-to-4-9-ubuntu-15-10
+https://github.com/opencv/opencv/issues/7633
+https://gist.github.com/willprice/abe456f5f74aa95d7e0bb81d5a710b60
+https://www.inmotionhosting.com/support/server/linux/check-memory-usage/#:~:text=%2Fproc%2Fmeminfo-,Linux%20free%20%2Dm,as%20MB%20instead%20of%20KB.&text=The%20free%20column%20beside%20%2D%2F%2B,free%20memory%20available%20to%20Linux.
+https://www.tomshardware.com/how-to/monitor-cpu-and-ram-in-linux
+https://zoomadmin.com/HowToInstall/UbuntuPackage/dphys-swapfile
+(sudo apt install cmake-gui) https://stackoverflow.com/questions/32425599/where-is-the-cmake-gui-for-linux
+How to find operating system and version: https://www.cyberciti.biz/faq/how-to-check-os-version-in-linux-command-line/
+How to find prrocessor: https://knowledge.broadcom.com/external/article/238148/cpu-info-from-the-linux-command-line.html#:~:text=The%20command%2Dline%20utility%20%E2%80%9Clscpu,command%20line%20via%20root%20credentials.
+How to find compiler location: https://www.cyberciti.biz/faq/locate-linux-gnu-c-or-gcc-compiler-location/
