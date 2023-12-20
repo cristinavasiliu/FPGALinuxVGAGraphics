@@ -56,3 +56,55 @@ make: *** [all] Error 2
 root@DE1_SoC:~/Desktop/build# 
 root@DE1_SoC:~/Desktop/build# 
 
+
+
+
+
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_cpu.cpp.o
+[ 98%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ocv_stateful_kernel_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_cpu.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_stereo_tests_cpu.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_cpu.cpp.o
+[ 99%] Linking CXX executable ../../bin/opencv_perf_gapi
+[ 99%] Built target opencv_perf_gapi
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_imgproc_tests_fluid.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_core_tests_fluid.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_operators_tests_fluid.cpp.o
+g++: internal compiler error: Killed (program cc1plus)
+Please submit a full bug report,
+with preprocessed source if appropriate.
+See <file:///usr/share/doc/gcc-4.8/README.Bugs> for instructions.
+modules/python2/CMakeFiles/opencv_python2.dir/build.make:62: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o' failed
+make[2]: *** [modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o] Error 4
+CMakeFiles/Makefile2:4011: recipe for target 'modules/python2/CMakeFiles/opencv_python2.dir/all' failed
+make[1]: *** [modules/python2/CMakeFiles/opencv_python2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_ot_tests_cpu.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/cpu/gapi_video_tests_cpu.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_array_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_plaidml_pipelines.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_integration_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_view_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/rmat/rmat_tests.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/test_main.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_gpu_test.cpp.o
+[ 99%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_compile_args_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_core_tests_gpu.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_operators_tests_gpu.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gpu/gapi_imgproc_tests_gpu.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_imgproc_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_core_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_stereo_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_render_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_operators_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_compoundkernel_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/common/gapi_video_tests.cpp.o
+[100%] Building CXX object modules/gapi/CMakeFiles/opencv_test_gapi.dir/test/gapi_fluid_roi_test.cpp.o
+[100%] Linking CXX executable ../../bin/opencv_test_gapi
+[100%] Built target opencv_test_gapi
+Makefile:160: recipe for target 'all' failed
+make: *** [all] Error 2
+root@DE1_SoC:~/Desktop/build# 
+
+
+
