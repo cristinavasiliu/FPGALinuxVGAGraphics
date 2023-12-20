@@ -26,4 +26,10 @@ For git:
 https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository#adding-a-file-to-a-repository-using-the-command-line
 https://www.freecodecamp.org/news/error-failed-to-push-some-refs-to-how-to-fix-in-git/
 
-
+OpenCV:
+https://www.youtube.com/watch?v=gpefzimDq-s
+https://insper.github.io/Embarcados-Avancados/Tutorial-HPS-BlinkLED/
+https://github.com/hershg/opencv-fpga
+https://livrepository.liverpool.ac.uk/3028893/1/200832211_Jan2018.pdf
+https://www.rocketboards.org/foswiki/Projects/SoCLicensePlateRecognition
+https://www.pathpartnertech.com/how-to-build-angstrom-linux-distribution-for-altera-soc-fpga-with-open-cv-camera-driver-support/
