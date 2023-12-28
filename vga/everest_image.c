@@ -73,7 +73,27 @@ int main(void)  {
 	vga_pixel_ptr =(unsigned int *)(vga_pixel_virtual_base);
     
 	// ========================================================================
+    // ========================================================================
 
+	FILE *pic_pointer;
+        pic_pointer=fopen("everest_32x32.bin", "rb");
+        if (!pic_pointer) { 
+          printf("Unable to open picture file!");    
+	  return 1;
+        }
+        char pic_buffer[1];
+        //unsigned short pic_buffer;
+	int i=0;
+        int j=0;
+	while (!feof(pic_pointer)) {
+        fread(pic_buffer, 1, 1, pic_pointer);
+        //printf("%s", pic_buffer);
+		vga_pixel_ptr =(unsigned int *)(vga_pixel_virtual_base+(i&63)+(i>>6)*1024);
+		*vga_pixel_ptr =*pic_buffer ;
+                printf("%x , %d \n",*pic_buffer, i);
+		i++;
+       } 
+ 	// ========================================================================
 	// create a message to be displayed on the VGA and LCD displays 
 	
 	char text_top_row[40] = "Cristina\0";
