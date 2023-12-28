@@ -71,6 +71,24 @@ int main(void)  {
 	}
 	
 	vga_pixel_ptr =(unsigned int *)(vga_pixel_virtual_base);
+    // ========================================================================
+
+	FILE *pic_pointer;
+    pic_pointer=fopen("everest_16x16.bin", "rb");
+    if (!pic_pointer) { 
+      printf("Unable to open picture file!");    
+	  return 1;
+    }
+    char pic_buffer[2];
+	int i=0;
+	while (!feof(pic_pointer)) {
+        fread(pic_buffer, 2, 1, pic_pointer);
+        //printf("%s", pic_buffer);
+		vga_pixel_ptr =(unsigned int *)(vga_pixel_virtual_base+(2*i));
+		*vga_pixel_ptr = pic_buffer ;
+		printf("%s, %d \n", pic_buffer, i);
+		i++;
+    }
     
 	// ========================================================================
     // ========================================================================
