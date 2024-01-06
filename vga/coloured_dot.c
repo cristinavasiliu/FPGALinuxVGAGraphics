@@ -1,8 +1,10 @@
+/* The following c code was taken and adapted from "DE1-SoC: University ComputerGraphics, audio, IPC Cornell ece5760". See: "One c example" https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html */
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
 #include <sys/mman.h>
-#include "address_map_arm_brl4.h"                        //address map file 
+#include "address_map_arm_brl4.h"                        //address map file
 
 // Declare function prototypes that handle VGA text, drawing filled rectangles, and drawing lines on the VGA monitor
 

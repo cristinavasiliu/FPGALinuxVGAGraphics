@@ -1,3 +1,8 @@
+/* The following c code was taken and adapted from "DE1-SoC: University Computer
+Graphics, audio, IPC Cornell ece5760". See: "code was modified" https://people.ece.c
+ornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index
+.html */
+
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>

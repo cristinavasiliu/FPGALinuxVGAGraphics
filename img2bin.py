@@ -1,4 +1,7 @@
 """
+********************************************************************************
+The following python script was taken and adapted from "EEC180 Tutorial: Creating verilog-ready bitmaps from image files". See: https://www.ece.ucdavis.edu/~bbaas/180/tutorials/image.bitmaps/
+********************************************************************************
 This python script requires the opencv-python module (cv2) to run.
 To install this module on OSX/Linux systems, type the following in a
 terminal window: pip install opencv-python
@@ -61,7 +64,6 @@ elif img.shape[1] > img.shape[0]:
 # resize image to e.g. 16x16
 img = cv2.resize(img, IMAGE_SHAPE)
 
-
 # create output (binary) file name
 infile_base = os.path.splitext(os.path.basename(IMAGE_FILENAME))[0]
 bin_file_base = infile_base + "_" + str(IMAGE_SHAPE[0]) + "x" + str(IMAGE_SHAPE[1]) + ".bin"
@@ -74,7 +76,7 @@ for h in range(0, img.shape[0]):
         # convert to RGB 565
         red = int(img[h,w,2]/8) # 5bit, 2^5=32 levels => 256/32=8 (division factor)
         grn = int(img[h,w,1]/4) # 6bit, 2^6=64 levels => 256/64=4 (division factor)
-        blu = int(img[h,w,0]/8)
+        blu = int(img[h,w,0]/8) # 5bit
 
         pix = (red<<(6+5)) | (grn<<5) | (blu)
 
@@ -86,6 +88,5 @@ for h in range(0, img.shape[0]):
         f.write(binary_data)               #write pixel into binary file
 
         addr += 1
-
 
 f.close()
