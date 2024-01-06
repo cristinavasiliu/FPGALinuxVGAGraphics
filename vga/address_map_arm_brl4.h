@@ -1,4 +1,5 @@
-/* This files provides address values that exist in the system */
+/* This header file was taken and adapted from Cornel. See: https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html */
+/* This file provides address values that exist in the system */
 
 #define BOARD                 "DE1-SoC"
 
