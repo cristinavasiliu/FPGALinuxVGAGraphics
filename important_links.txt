@@ -47,3 +47,6 @@ https://zoomadmin.com/HowToInstall/UbuntuPackage/dphys-swapfile
 How to find operating system and version: https://www.cyberciti.biz/faq/how-to-check-os-version-in-linux-command-line/
 How to find prrocessor: https://knowledge.broadcom.com/external/article/238148/cpu-info-from-the-linux-command-line.html#:~:text=The%20command%2Dline%20utility%20%E2%80%9Clscpu,command%20line%20via%20root%20credentials.
 How to find compiler location: https://www.cyberciti.biz/faq/locate-linux-gnu-c-or-gcc-compiler-location/
+
+
+Image to RGB565 comverter: https://longfangsong.github.io/en/image-to-rgb565/

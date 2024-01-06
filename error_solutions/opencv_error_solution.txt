@@ -1,3 +1,5 @@
+Encountered error while building and installing OpenCV:
+
 [ 98%] Building CXX object modules/python2/CMakeFiles/opencv_python2.dir/__/src2/cv2.cpp.o
 ^[[^[[Ac++: internal compiler error: Killed (program cc1plus)
 Please submit a full bug report,
@@ -111,6 +113,17 @@ Traceback (most recent call last):
   File "img2v_cri.py", line 65, in <module>
     cv2.imshow("hello", img)
 cv2.error: OpenCV(4.8.0-dev) /root/Desktop/opencv/modules/highgui/src/window.cpp:1272: error: (-2:Unspecified error) The function is not implemented. Rebuild the library with Windows, GTK+ 2.x or Cocoa support. If you are on Ubuntu or Debian, install libgtk2.0-dev and pkg-config, then re-run cmake or configure script in function 'cvShowImage'
+
+
+SOLUTION: OpenCV is very memory heavy, the DE1-SoC has a 1GB DDR3 memory which is
+not enough to build and install OpenCV. The solution is to increase the swap size from the
+default 100MB to 2GB:
+sudo dphys-swapfile swapoff
+sudo sed -i ‘s:CONF SWAPSIZE=.*:CONF SWAPSIZE=2048:g’
+/etc/dphys-swapfile
+sudo reboot
+Afterwards, build and install OpenCV.
+
 
 
 
