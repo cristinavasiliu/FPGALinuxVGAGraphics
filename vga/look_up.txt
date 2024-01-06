@@ -1,0 +1,50 @@
+- original_vga_speed_test.c 
+
+Original code from Cornel's website. Image contains a coloured square, rectangle, line, text and a white pixel on the top left corner.
+
+- random_rectangles.c
+
+Original code from Cornel's website for random rectangles.
+
+
+
+- coloured_dot.c 
+
+Contains the original image with a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" and rgb pixel.
+
+
+
+- moving_square_screensaver.c
+
+Original moving square screensaver (multi-coloured). To improve make it more smooth.
+
+-moving_square_test1.c
+
+No refresh between moving square => blue line effect that colours the screen from left to right. 
+
+-moving_square_test2.c
+
+Refresh rate too high, therefore you can see the square moving. Still doesn't move smoothly.
+
+- moving_square_smooth.c
+
+The square moves smoothly (blue)
+
+
+
+- everest_image.c
+
+Displays the everest image on the top left corner
+
+- umbrella.c
+
+Displays umbrella image on the top left corner of the screen. Bit file doesn't generate the colours correctly.
+
+- umbrella_rgb565.c
+
+Tried to move umbrella image, doesn't work yet.
+
+
+
+
+
