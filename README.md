@@ -1,17 +1,20 @@
 # FPGALinuxVGAGraphics
 ## Linux on FPGA (DE1-SoC) + VGA graphics 
 
-<h3>Instructions on how to run the c files:</h3> 
+<h3>Running the program:</h3> 
 
-Make sure that the header file (.h) is in the same directory as the c file
+Use the following command in the Linux terminal: tclsh run_umbrella.tcl
+(Make sure that TCL script, shell script, header file (.h) and the c file are in the same directory)
 
-Compile:
+Another approach:
+Compile c file: 
 gcc <file_name>.c -o <file_name>
-
-Run:
+Then run:
 ./<file_name>
 
- <h3>Linux image:</h3>
+ <h3>Linux images:</h3>
 
- I used the 'Linux LXDE Desktop’ image, which can be found at the following link: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4
+ I used two Linux images:
+'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4   [GUI]
+And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html                                      [CONSOLE]
 
