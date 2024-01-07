@@ -3,18 +3,18 @@
 
 <h3>Running the program:</h3> 
 
-Use the following command in the Linux terminal: tclsh run_umbrella.tcl
-(Make sure that TCL script, shell script, header file (.h) and the c file are in the same directory)
+Run the following command in the Linux terminal: tclsh run_umbrella.tcl <br />
+(Make sure that TCL script, shell script, header file (.h) and the c file are in the same directory) <br />
 
-Another approach:
-Compile c file: 
-gcc <file_name>.c -o <file_name>
-Then run:
-./<file_name>
+Another approach: <br />
+Compile c file: <br />
+gcc <file_name>.c -o <file_name> <br />
+Then run: <br />
+./<file_name> <br />
 
- <h3>Linux images:</h3>
+ <h3>Linux images:</h3> <br /> 
 
  I used two Linux images:
-'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4   [GUI]
-And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html                                      [CONSOLE]
+'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4   [GUI] <br />
+And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html                                      [CONSOLE] <br />
 
