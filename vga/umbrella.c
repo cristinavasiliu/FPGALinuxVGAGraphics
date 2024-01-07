@@ -79,7 +79,7 @@ int main(void)  {
     // ========================================================================
 
 	FILE *pic_pointer;
-        pic_pointer=fopen("umbrella_black_background_32x32.bin", "rb");
+        pic_pointer=fopen("rgb565data.bin", "rb");
         if (!pic_pointer) { 
           printf("Unable to open picture file!");    
 	  return 1;
