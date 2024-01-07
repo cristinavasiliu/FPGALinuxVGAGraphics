@@ -12,9 +12,9 @@ gcc <file_name>.c -o <file_name> <br />
 Then run: <br />
 ./<file_name> <br />
 
- <h3>Linux images:</h3> <br /> 
+ <h3>Linux images:</h3>
 
  I used two Linux images:
-'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4   [GUI] <br />
-And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html                                      [CONSOLE] <br />
+[DESKTOP WITH GUI] 'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
+[CONSOLE] And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
 
