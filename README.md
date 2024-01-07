@@ -14,7 +14,7 @@ Then run: <br />
 
  <h3>Linux images:</h3>
 
- I used two Linux images:
+ I used two Linux images: <br />
 [DESKTOP WITH GUI] 'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
 [CONSOLE] And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
 
