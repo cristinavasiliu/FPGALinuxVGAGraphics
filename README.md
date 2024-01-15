@@ -1,12 +1,15 @@
 # FPGALinuxVGAGraphics
 ## Linux on FPGA (DE1-SoC) + VGA graphics 
 
-<h3>Running the program:</h3> 
+<h3>Developing Linux programs for the DE1-SoC board:</h3> 
 
+There are two ways you can develop a Linux program for the DE1-SoC board. The first approach is 'native compilation' where you write then compile code using the command-line or GUI interface from Linux. The second approach is 'cross compilation'. You write then compile the program on a host computer (ex: Windows), then transfer the executable file onto the microSD card that contains the Linux file system. <br />
+
+Native compilation:
 Run the following command in the Linux terminal: tclsh run_umbrella.tcl <br />
 (Make sure that TCL script, shell script, header file (.h) and the c file are in the same directory) <br />
 
-Another approach: <br />
+Or: <br />
 Compile c file: <br />
 gcc <file_name>.c -o <file_name> <br />
 Then run: <br />
