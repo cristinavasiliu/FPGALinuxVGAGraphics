@@ -1,7 +1,7 @@
 # FPGALinuxVGAGraphics
 ## Linux on FPGA (DE1-SoC) + VGA graphics 
 
-![alt text](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/blob/main/bin_images/everest.jpg)
+![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)
 
 <h3>Developing Linux programs for the DE1-SoC board:</h3> 
 
