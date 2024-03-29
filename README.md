@@ -23,12 +23,12 @@ Then run:
 'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
 And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
 
- <h3>Demos:</h3>
+ <h3>Demo:</h3>
 
-Demo for coloured_dot.c <br />
+coloured_dot.c <br />
 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/69b56173-309d-4144-9b22-8fd324133157
 
-Demo for umbrella.c (left) and everest_image.c (right) <br />
+umbrella.c (left) and everest_image.c (right) <br />
 
 ![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)
