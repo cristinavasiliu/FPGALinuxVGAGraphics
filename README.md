@@ -1,7 +1,7 @@
 # FPGALinuxVGAGraphics
 ## Linux on FPGA (DE1-SoC) + VGA graphics 
 
-![alt text](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/blob/main/bin_images/everest.jpg)
+
 
 <h3>Developing Linux programs for the DE1-SoC board:</h3> 
 
@@ -23,3 +23,12 @@ Then run:
 'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
 And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
 
+ <h3>Demo:</h3>
+
+coloured_dot.c <br />
+
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/69b56173-309d-4144-9b22-8fd324133157
+
+umbrella.c (left) and everest_image.c (right) <br />
+
+![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)
