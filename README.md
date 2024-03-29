@@ -26,30 +26,30 @@ And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/cou
  <h3>Demo:</h3>
 
 coloured_dot.c <br />
-Contains following: a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" on the top left corner and a rgb pixel.
+Contains following: a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" on the top left corner and a rgb pixel.  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  <br />
 
-moving_square_screensaver.c
-Multi-coloured moving square screensaver. To improve make it more smooth.
+moving_square_screensaver.c  <br />
+Multi-coloured moving square screensaver. To improve make it more smooth.  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/d483fa64-82bd-411b-b9a2-bed743c0ad0f
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/d483fa64-82bd-411b-b9a2-bed743c0ad0f  <br />
 
-moving_square_test1.c
-No refresh between moving square results in a blue line effect that colours the screen from left to right. 
+moving_square_test1.c  <br />
+No refresh between moving square results in a blue line effect that colours the screen from left to right.  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/303aa5d6-fd8d-4288-b5fb-1729e3a1562b
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/303aa5d6-fd8d-4288-b5fb-1729e3a1562b  <br />
 
-moving_square_test2.c
-Refresh rate is too high, therefore you can see the square moving. Still doesn't move smoothly.
+moving_square_test2.c  <br />
+Refresh rate is too high, therefore you can see the square moving. Still doesn't move smoothly.  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/c8b48940-a349-4b7a-be9f-981717955849
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/c8b48940-a349-4b7a-be9f-981717955849  <br />
 
-moving_square_smooth.c
-Blue square moves smoothly 
+moving_square_smooth.c  <br />
+Blue square moves smoothly  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/40c8a9cb-e271-437e-a049-d4b8017577b5
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/40c8a9cb-e271-437e-a049-d4b8017577b5  <br />
 
 umbrella.c (left) and everest_image.c (right) <br />
 
-![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)
+![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)  <br />
