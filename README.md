@@ -26,9 +26,9 @@ And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/cou
  <h3>Demo:</h3>
 
 coloured_dot.c <br />
-Contains following: a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" on the top left corner and a rgb pixel.  <br />
+Contains the following: a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" on the top left corner and a rgb pixel.  <br />
 
-https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  <br />
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  
 
 moving_square_screensaver.c  <br />
 Multi-coloured moving square screensaver. To improve make it more smooth.  <br />
