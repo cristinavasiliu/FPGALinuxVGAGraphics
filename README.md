@@ -24,6 +24,9 @@ Then run:
 And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
 
 
-![demo_shapes](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/04ccf563-802e-4a16-ad74-1c99d30c4236)
+
+
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/69b56173-309d-4144-9b22-8fd324133157
+
 
 ![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)
