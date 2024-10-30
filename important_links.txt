@@ -1,24 +1,23 @@
 References:
 
-From Cornell:
+From Cornell University:
 
-Lab 1 from      https://people.ece.cornell.edu/land/courses/ece5760/
-Linux on FPGA   https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/linux_index.html
-Graphics        https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html
+Project ideas:           https://people.ece.cornell.edu/land/courses/ece5760/
+Linux on FPGA (lab 1):   https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/linux_index.html
+Graphics, audio, IPC:    https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/HPS_peripherials/univ_pgm_computer.index.html
 
-Memory blocks:             https://www.ece.ucdavis.edu/~bbaas/180/tutorials/m9k.html
-Bitmaps from image files:  https://www.ece.ucdavis.edu/~bbaas/180/tutorials/image.bitmaps/
-Using accelorometer:       https://www.ece.ucdavis.edu/~bbaas/180/tutorials/accelerometer.html
+Using Altera/Intel M9K Memory Blocks:             https://www.ece.ucdavis.edu/~bbaas/180/tutorials/m9k.html
+Creating verilog-ready bitmaps from image files:  https://www.ece.ucdavis.edu/~bbaas/180/tutorials/image.bitmaps/
+Using the accelerometer on the DE10-LITE board:   https://www.ece.ucdavis.edu/~bbaas/180/tutorials/accelerometer.html
 
-
-Summer project:
+Summer project (video game on the DE10-Lite demo):
 https://www.youtube.com/watch?v=k_7IV0U2JhQ
 
-Intel linux SD card images:
+Intel Linux SD card images:
 https://www.intel.com/content/www/us/en/developer/topic-technology/fpga-academic/materials-sd-card-images.html
 https://fpgacademy.org/courses.html 
 
-Terasic linux SD card images:
+Terasic Linux SD card images:
 https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 (I used the 'Linux LXDE Desktop’ one)
 
 Configuring the DE1-SoC to run Linux OS (explained very well):
@@ -44,8 +43,9 @@ https://www.inmotionhosting.com/support/server/linux/check-memory-usage/#:~:text
 https://www.tomshardware.com/how-to/monitor-cpu-and-ram-in-linux
 https://zoomadmin.com/HowToInstall/UbuntuPackage/dphys-swapfile
 (sudo apt install cmake-gui) https://stackoverflow.com/questions/32425599/where-is-the-cmake-gui-for-linux
+
 How to find operating system and version: https://www.cyberciti.biz/faq/how-to-check-os-version-in-linux-command-line/
-How to find prrocessor: https://knowledge.broadcom.com/external/article/238148/cpu-info-from-the-linux-command-line.html#:~:text=The%20command%2Dline%20utility%20%E2%80%9Clscpu,command%20line%20via%20root%20credentials.
+How to find processor: https://knowledge.broadcom.com/external/article/238148/cpu-info-from-the-linux-command-line.html#:~:text=The%20command%2Dline%20utility%20%E2%80%9Clscpu,command%20line%20via%20root%20credentials.
 How to find compiler location: https://www.cyberciti.biz/faq/locate-linux-gnu-c-or-gcc-compiler-location/
 
 Image to RGB565 converter: https://longfangsong.github.io/en/image-to-rgb565/
