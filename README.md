@@ -14,6 +14,7 @@ There are two methods for developing a Linux program for the DE1-SoC board: nati
 https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/DE1-SoC-UP-Linux/Linux.pdf<br />
 
 How to run using native compilation: <br />
+
 Run the following command in the Linux terminal: tclsh run_umbrella.tcl <br />
 (Make sure that TCL script, shell script, header file (.h) and the c file are in the same directory) <br />
 
