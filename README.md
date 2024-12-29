@@ -34,17 +34,21 @@ This file includes the following features: a multi-colored square, rectangle, li
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  
 
 3. moving_square_screensaver.c  <br />
-A multi-colored moving square screensaver. To improve its performance, it can be optimized for smoother motion. https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/d483fa64-82bd-411b-b9a2-bed743c0ad0f  
+A multi-colored moving square screensaver. To improve its performance, it can be optimized for smoother motion.
 
-4. moving_square_test1.c  <br />
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/d483fa64-82bd-411b-b9a2-bed743c0ad0f  
+
+5. moving_square_test1.c  <br />
 No refresh between the moving square results in a blue line effect, resulting in the screen being gradually colored from left to right. https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/303aa5d6-fd8d-4288-b5fb-1729e3a1562b  <br />
 
-5. moving_square_test2.c  <br />
+6. moving_square_test2.c  <br />
 The refresh rate is set too high, causing the square to be visible as it moves. However, it still doesn't move smoothly. https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/c8b48940-a349-4b7a-be9f-981717955849  <br />
 
-6. moving_square_smooth.c  <br />
-The blue square moves smoothly across the screen. https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/40c8a9cb-e271-437e-a049-d4b8017577b5  <br />
+7. moving_square_smooth.c  <br />
+The blue square moves smoothly across the screen.
 
-7. umbrella.c (left) and everest_image.c (right) <br />
+https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/40c8a9cb-e271-437e-a049-d4b8017577b5  <br />
+
+8. umbrella.c (left) and everest_image.c (right) <br />
 
 ![demo](https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/f8f4df8b-80f6-414e-9ed5-08cf150f1d01)  <br />
