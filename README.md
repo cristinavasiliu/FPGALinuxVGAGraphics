@@ -27,7 +27,7 @@ And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/cou
  <h3>Demo:</h3>
 
 coloured_dot.c <br />
-Contains the following: a coloured square, rectangle, line, text, a white pixel on the top left corner, a red comet on the top left corner, and a RGB pixel.  <br />
+Contains the following: a multi-coloured square, rectangle, line, text, a white pixel on the top left corner, a red comet on the top left corner, and a RGB pixel.  <br />
 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  
 
