@@ -27,7 +27,7 @@ And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/cou
  <h3>Demo:</h3>
 
 coloured_dot.c <br />
-Contains the following: a coloured square, rectangle, line, text, white pixel on the top left corner, red "comet" on the top left corner and a rgb pixel.  <br />
+Contains the following: a coloured square, rectangle, line, text, a white pixel on the top left corner, a red comet on the top left corner, and a RGB pixel.  <br />
 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  
 
@@ -42,7 +42,7 @@ No refresh between moving square results in a blue line effect that colours the 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/303aa5d6-fd8d-4288-b5fb-1729e3a1562b  <br />
 
 moving_square_test2.c  <br />
-Refresh rate is too high, therefore you can see the square moving. Still doesn't move smoothly.  <br />
+The refresh rate is too high, therefore you can see the square moving. Still doesn't move smoothly.  <br />
 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/c8b48940-a349-4b7a-be9f-981717955849  <br />
 
