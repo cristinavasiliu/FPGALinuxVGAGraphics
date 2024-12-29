@@ -1,7 +1,12 @@
-# FPGALinuxVGAGraphics
-## Linux on FPGA (DE1-SoC) + VGA graphics 
+# Linux on FPGA (DE1-SoC) + VGA graphics 
 
+The project is divided into two main components: first, setting up Linux on the FPGA (specifically the DE1-SoC board from Intel), and second, implementing bare-metal VGA graphics using the FPGA.
 
+ <h3>Linux images:</h3>
+
+I used two Linux images for this project: <br />
+'Linux LXDE Desktop’ from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
+And a Linux console for the DE1-SoC from Intel: https://fpgacademy.org/courses.html <br />
 
 <h3>Developing Linux programs for the DE1-SoC board:</h3> 
 
@@ -18,15 +23,15 @@ gcc <file_name>.c -o <file_name> <br />
 Then run: 
 ./<file_name> <br />
 
- <h3>Linux images:</h3>
+ <h3>VGA Graphics:</h3>
 
- I used two Linux images: <br />
-'Linux LXDE Desktop’ image from Terasic: https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&No=836&PartNo=4 <br />
-And a Linux console for the DE1-SoC board from Intel: https://fpgacademy.org/courses.html <br />
+The VGA graphics were created by accessing the boards I/O peripherlas via its address range. Various HPS memory componets and Cycolne V FPGA compinents were used to render text, shapes and images on the VGA screen (see project documwntation for full explanation). Below are the demos of each C file. 
 
- <h3>Demo:</h3>
+1. Item Zed
+   1. Nested Numeric # indented 3 spaces
+2. Item One
 
-coloured_dot.c <br />
+1. coloured_dot.c <br />
 Contains the following: a multi-coloured square, rectangle, line, text, a white pixel on the top left corner, a red comet on the top left corner, and a RGB pixel.  <br />
 
 https://github.com/cristinavasiliu/FPGALinuxVGAGraphics/assets/102209384/319bb43e-fc0c-4fb2-a903-1d9e1df6c843  
