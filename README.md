@@ -5,7 +5,8 @@
 
 <h3>Developing Linux programs for the DE1-SoC board:</h3> 
 
-There are two ways you can develop a Linux program for the DE1-SoC board. The first approach is 'native compilation', where you write and compile code using the command line or GUI interface from Linux. The second approach is called 'cross compilation', where you write and compile the program on a host computer (ex: Windows), then transfer the executable file onto the microSD card that contains the Linux file system. See pg 14-15: https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/DE1-SoC-UP-Linux/Linux.pdf<br />
+There are two methods for developing a Linux program for the DE1-SoC board: native compilation and cross-compilation. Native compilation involves writing and compiling code directly on the DE1-SoC board using the Linux command line or GUI interface. In contrast, cross-compilation allows you to write and compile the program on a host computer (ex: Windows), and then transfer the executable file to the microSD card containing the Linux file system. For more information, refer to pages 14-15:
+https://people.ece.cornell.edu/land/courses/ece5760/DE1_SOC/DE1-SoC-UP-Linux/Linux.pdf<br />
 
 How to run using native compilation: <br />
 Run the following command in the Linux terminal: tclsh run_umbrella.tcl <br />
